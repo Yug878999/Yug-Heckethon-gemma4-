@@ -1,0 +1,8 @@
+import streamlit as st
+import json
+import os
+import plotly.express as px
+import ollama
+from google import genai 
+from google.genai import types 
+from streamlit_mic_recorder import mic_recorder
