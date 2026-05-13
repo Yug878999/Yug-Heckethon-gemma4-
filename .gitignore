@@ -1,0 +1,20 @@
+# --- Python Specific ---
+__pycache__/          # Compiled Python files (never upload these)
+*.py[cod]             # Python bytecode
+*$py.class            # Python class files
+.venv/                # Your virtual environment folder
+venv/                 # Common name for virtual environment
+env/                  # Another common name for venv
+
+# --- Streamlit & Local Config ---
+.streamlit/           # Local Streamlit theme/config (usually not needed on GitHub)
+.env                  # Private environment variables (crucial for security)
+
+# --- System Junk ---
+.DS_Store             # macOS hidden files
+Thumbs.db             # Windows thumbnail caches
+desktop.ini           # Windows folder settings
+
+# --- IDEs ---
+.vscode/              # Visual Studio Code settings
+.idea/                # PyCharm settings
